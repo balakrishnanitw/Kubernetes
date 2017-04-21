@@ -14,8 +14,9 @@ cd bluechatter
 Edit the manifest.yml file and change the application host to something unique. The host you use will determinate your application url initially, e.g. <host>.mybluemix.net.
 
 Connect and login to Bluemix
-
+<br>
 $ cf login -a https://api.ng.bluemix.net
+</br>
 Create a Redis service for the app to use, we will use the RedisCloud service.
 $ cf create-service rediscloud 30mb redis-chatter
 Push the application
